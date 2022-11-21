@@ -1,13 +1,13 @@
 {
-  "name": "resize-gif",
+  "name": "makegif",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "makegif.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run": "node makegif.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Astralite",
   "license": "ISC",
   "dependencies": {
     "canvas": "^2.10.2",
