@@ -2,7 +2,10 @@
   "name": "makegif",
   "version": "1.0.0",
   "description": "",
-  "main": "makegif.js",
+  "bin": {
+    "makegif": "makegif.js"
+  },
+  "preferGlobal": true,
   "scripts": {
     "run": "node makegif.js"
   },
