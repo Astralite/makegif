@@ -68,8 +68,8 @@ if (argv.help || argv.h) {
   process.exit(0)
 }
 
-const defaultInputFolder = path.join(__dirname, 'input')
-const defaultOutputFolder = path.join(__dirname, 'output')
+const defaultInputFolder = path.join(process.cwd(), 'input')
+const defaultOutputFolder = path.join(process.cwd(), 'output')
 
 const inputFolder = argv.inputFolder || argv.i || defaultInputFolder
 const outputFolder = argv.outputFolder || argv.o || defaultOutputFolder
